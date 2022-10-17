@@ -1,0 +1,21 @@
+{
+    "name": "wchinwa2022/active-composer",
+    "description": "Library used to fetching customer details",
+    "type": "library",
+    "require": {
+        "ext-curl": "*",
+        "curl/curl": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wchinwa2022\\ActiveComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Williams Chinwa",
+            "email": "wchinwa2022@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
